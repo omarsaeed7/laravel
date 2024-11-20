@@ -26,8 +26,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
             <div class="container px-5">
-                <a class="navbar-brand" href="{{ route('main.index') }}"><span class="fw-bolder text-primary">Start
-                        Bootstrap</span></a>
+                <a class="navbar-brand" href="{{ route('main.index') }}"><span class="fw-bolder text-primary">Omar Saeed</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
@@ -49,17 +48,11 @@
     <!-- Footer-->
     <footer class="bg-white py-4 mt-auto">
         <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div class="row align-items-center justify-content-center flex-column flex-sm-row">
                 <div class="col-auto">
-                    <div class="small m-0">Copyright &copy; Your Website 2023</div>
+                    <div class="small m-0">Copyright &copy; 2024</div>
                 </div>
-                <div class="col-auto">
-                    <a class="small" href="#!">Privacy</a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="small" href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="small" href="#!">Contact</a>
-                </div>
+
             </div>
         </div>
     </footer>

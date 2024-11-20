@@ -80,7 +80,7 @@ class FormController extends Controller
             $data['images'] = $imgName;
         }
 
-        Mail::to('stop_spam7@proton.me')->send(new ContactMail($data));
+        Mail::to('admin@admin.com')->send(new ContactMail($data));
         // dd($request->all());
     }
     //
