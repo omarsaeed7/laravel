@@ -40,6 +40,13 @@ class FormController extends Controller
     }
     public function form4Data(Request $request)
     {
+        //Store Process
+        /*
+            1- Validation
+            2- Upload Files
+            3- Store in database
+            4- Redirect to specific Route
+        */
         // dd($request->all());
         $request->validate([
             'email' => 'required',
@@ -82,6 +89,7 @@ class FormController extends Controller
 
         Mail::to('admin@admin.com')->send(new ContactMail($data));
         // dd($request->all());
+        return view('new.new');
     }
     //
 }

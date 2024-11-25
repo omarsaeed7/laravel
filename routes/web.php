@@ -27,5 +27,7 @@ Route::get('/contactme', [FormController::class, 'contactme'])->name('forms.cont
 Route::post('/contactme', [FormController::class, 'contactmeData'])->name('forms.contactmeData');
 /* ->> End Sending Mail Routs <<- */
 
+Route::get('users/{id}', function ($id) {
 
+});
 //
